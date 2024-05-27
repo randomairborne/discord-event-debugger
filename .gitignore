@@ -1,0 +1,8 @@
+/target
+.env
+
+events
+events-fmt
+
+/.idea
+/.vscode

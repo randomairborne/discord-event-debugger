@@ -1,0 +1,10 @@
+[package]
+name = "discord-event-debugger"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "fs"] }
+twilight-gateway = "0.16.0-rc.1"
+futures-util = "0.3"
+vss = "0.1.0"
